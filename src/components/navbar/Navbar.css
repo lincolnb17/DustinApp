@@ -1,0 +1,64 @@
+.navbar-brand{
+    font-size: xx-large;
+}
+.bg-light{
+    background-color: #cba85e !important;
+}
+#navbarNav{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-item{
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.shop{
+    padding-left: 10px;
+    margin-top: -3px;
+}
+.account{
+    list-style: none;
+    margin-top: -8px;
+
+}
+
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .account {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #4caf50;}
+  
+  .account:hover .dropdown-content {
+    display: block;
+
+  }
+  
+  .account:hover .dropbtn {
+    background-color: #3e8e41;
+  }
