@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState} from "react";
 import Amazon from "../../components/shop/amazon";
 import Header from "../../components/shop/Header";
 import Cart from "../../components/shop/cart"

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+
 import list from "../../data/data"
 import Cards from "./card";
 import "./amazon.css";
